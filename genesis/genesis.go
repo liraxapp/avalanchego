@@ -55,9 +55,9 @@ func FromConfig(config *Config) ([]byte, ids.ID, error) {
 	}
 	{
 		avax := avm.AssetDefinition{
-			Name:         "Avalanche",
-			Symbol:       "AVAX",
-			Denomination: 9,
+			Name:         "LiraX",
+			Symbol:       "LIRAX",
+			Denomination: 2,
 			InitialState: map[string][]interface{}{},
 		}
 		memoBytes := []byte{}

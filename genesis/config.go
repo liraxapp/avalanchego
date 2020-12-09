@@ -152,6 +152,8 @@ var (
 	// FujiConfig is the config that should be used to generate the fuji
 	// genesis.
 	FujiConfig Config
+	
+	LiraxConfig Config
 
 	// LocalConfig is the config that should be used to generate a local
 	// genesis.
@@ -162,11 +164,13 @@ func init() {
 	unparsedMainnetConfig := UnparsedConfig{}
 	unparsedFujiConfig := UnparsedConfig{}
 	unparsedLocalConfig := UnparsedConfig{}
+	unparsedLiraxConfig := UnparsedConfig{}
 
 	errs := wrappers.Errs{}
 	errs.Add(
 		json.Unmarshal([]byte(mainnetGenesisConfigJSON), &unparsedMainnetConfig),
 		json.Unmarshal([]byte(fujiGenesisConfigJSON), &unparsedFujiConfig),
+		json.Unmarshal([]byte(liraxGenesisConfigJSON), &unparsedLiraxConfig),
 		json.Unmarshal([]byte(localGenesisConfigJSON), &unparsedLocalConfig),
 	)
 	if errs.Errored() {
@@ -176,7 +180,11 @@ func init() {
 	mainnetConfig, err := unparsedMainnetConfig.Parse()
 	errs.Add(err)
 	MainnetConfig = mainnetConfig
-
+	
+	liraxConfig, err := unparsedLiraxConfig.Parse()
+	errs.Add(err)
+	LiraxConfig = liraxConfig
+	
 	fujiConfig, err := unparsedFujiConfig.Parse()
 	errs.Add(err)
 	FujiConfig = fujiConfig
@@ -197,6 +205,8 @@ func GetConfig(networkID uint32) *Config {
 		return &MainnetConfig
 	case constants.FujiID:
 		return &FujiConfig
+	case constants.LiraxID:
+		return &LiraxConfig
 	case constants.LocalID:
 		return &LocalConfig
 	default:

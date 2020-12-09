@@ -590,7 +590,7 @@ func setNodeConfig(v *viper.Viper) error {
 	}
 
 	// Network Parameters
-	if networkID != constants.MainnetID && networkID != constants.FujiID {
+	if networkID != constants.MainnetID && networkID != constants.LiraxID && networkID != constants.FujiID  {
 
 		txFee := v.GetUint64(txFeeKey)
 		creationTxFee := v.GetUint64(creationTxFeeKey)

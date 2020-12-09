@@ -61,13 +61,13 @@ const (
 
 	// MaxSubMinConsumptionRate is the % consumption that incentivizes staking
 	// longer
-	MaxSubMinConsumptionRate = 20000 // 2%
+	MaxSubMinConsumptionRate = 1 // 2%
 	// MinConsumptionRate is the minimum % consumption of the remaining tokens
 	// to be minted
-	MinConsumptionRate = 100000 // 10%
+	MinConsumptionRate = 2 // 10%
 
 	// SupplyCap is the maximum amount of AVAX that should ever exist
-	SupplyCap = 720 * units.MegaAvax
+	SupplyCap = 9999 * units.MegaAvax
 
 	// Maximum future start time for staking/delegating
 	maxFutureStartTime = 24 * 7 * 2 * time.Hour

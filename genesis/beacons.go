@@ -61,6 +61,10 @@ func getIPs(networkID uint32) []string {
 			"3.12.197.248:21001",
 			"3.17.39.236:21001",
 		}
+		case constants.LiraxID:
+		return []string{
+			"78.141.223.48:9651",
+		}
 	default:
 		return nil
 	}
@@ -118,6 +122,10 @@ func getNodeIDs(networkID uint32) []string {
 			"NodeID-84KbQHSDnojroCVY7vQ7u9Tx7pUonPaS",
 			"NodeID-JjvzhxnLHLUQ5HjVRkvG827ivbLXPwA9u",
 			"NodeID-4CWTbdvgXHY1CLXqQNAp22nJDo5nAmts6",
+		}
+	case constants.LiraxID:
+		return []string{
+			"NodeID-NsQwu1AsEXHTcF7v1GnLf99vkfHjMMEfS",
 		}
 	default:
 		return nil

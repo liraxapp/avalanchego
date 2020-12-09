@@ -20,12 +20,14 @@ const (
 	DenaliID  uint32 = 3
 	EverestID uint32 = 4
 	FujiID    uint32 = 5
+	LiraxID    uint32 = 6
 
 	TestnetID  uint32 = FujiID
 	UnitTestID uint32 = 10
 	LocalID    uint32 = 12345
 
 	MainnetName  = "mainnet"
+	LiraxName  = "lirax"
 	CascadeName  = "cascade"
 	DenaliName   = "denali"
 	EverestName  = "everest"
@@ -35,6 +37,7 @@ const (
 	LocalName    = "local"
 
 	MainnetHRP  = "avax"
+	LiraxHRP  = "lirax"
 	CascadeHRP  = "cascade"
 	DenaliHRP   = "denali"
 	EverestHRP  = "everest"
@@ -54,6 +57,7 @@ var (
 		CascadeID:  CascadeName,
 		DenaliID:   DenaliName,
 		EverestID:  EverestName,
+		LiraxID:     LiraxName,
 		FujiID:     FujiName,
 		UnitTestID: UnitTestName,
 		LocalID:    LocalName,
@@ -63,6 +67,7 @@ var (
 		CascadeName:  CascadeID,
 		DenaliName:   DenaliID,
 		EverestName:  EverestID,
+		LiraxName:    LiraxID,
 		FujiName:     FujiID,
 		TestnetName:  TestnetID,
 		UnitTestName: UnitTestID,
@@ -75,6 +80,7 @@ var (
 		DenaliID:   DenaliHRP,
 		EverestID:  EverestHRP,
 		FujiID:     FujiHRP,
+		LiraxID:    LiraxHRP,
 		UnitTestID: UnitTestHRP,
 		LocalID:    LocalHRP,
 	}
@@ -83,6 +89,7 @@ var (
 		CascadeHRP:  CascadeID,
 		DenaliHRP:   DenaliID,
 		EverestHRP:  EverestID,
+		LiraxHRP:    LiraxID,
 		FujiHRP:     FujiID,
 		UnitTestHRP: UnitTestID,
 		LocalHRP:    LocalID,
