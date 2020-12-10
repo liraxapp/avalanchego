@@ -1,6 +1,6 @@
 # AvalancheGo
 
-Official node implementation of the [Avalanche](https://avax.network) network -
+Modified version for lirax network of official node implementation of the [Avalanche](https://avax.network) network -
 a blockchains platform with high throughput, and blazing fast transactions.
 
 ## Installation
@@ -17,8 +17,8 @@ Avalanche is an incredibly lightweight protocol, so the minimum computer require
 Clone the AvalancheGo repository:
 
 ```sh
-go get -v -d github.com/ava-labs/avalanchego/...
-cd $GOPATH/src/github.com/ava-labs/avalanchego
+go get -v -d github.com/liraxapp/avalanchego/...
+cd $GOPATH/src/github.com/liraxapp/avalanchego
 ```
 
 #### Building the Avalanche Executable
@@ -44,7 +44,15 @@ The Avalanche binary, named `avalanchego`, is in the `build` directory.
 
 ## Running Avalanche
 
-### Connecting to Mainnet
+### Connecting to Lirax Mainnet
+
+To connect to the Avalanche Mainnet, run:
+
+```sh
+./build/avalanchego --network-id=lirax
+```
+
+### Connecting to Avalanche Mainnet
 
 To connect to the Avalanche Mainnet, run:
 
