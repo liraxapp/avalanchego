@@ -638,7 +638,7 @@ func TestGetAssetDescription(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	if reply.Name != "AVAX" {
+	if reply.Name != "LIRAX" {
 		t.Fatalf("Wrong name returned from GetAssetDescription %s", reply.Name)
 	}
 	if reply.Symbol != "SYMB" {

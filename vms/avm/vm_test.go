@@ -117,7 +117,7 @@ func GetAVAXTxFromGenesisTest(genesisBytes []byte, tb testing.TB) *Tx {
 
 	var avaxTx *GenesisAsset
 	for _, tx := range genesis.Txs {
-		if tx.Name == "AVAX" {
+		if tx.Name == "LIRAX" {
 			avaxTx = tx
 			break
 		}
@@ -146,7 +146,7 @@ func BuildGenesisTest(tb testing.TB) []byte {
 		Encoding: formatting.Hex,
 		GenesisData: map[string]AssetDefinition{
 			"asset1": {
-				Name:   "AVAX",
+				Name:   "LIRAX",
 				Symbol: "SYMB",
 				InitialState: map[string][]interface{}{
 					"fixedCap": {
@@ -659,7 +659,7 @@ func TestGenesisGetPaginatedUTXOs(t *testing.T) {
 		Encoding: formatting.Hex,
 		GenesisData: map[string]AssetDefinition{
 			"asset1": {
-				Name:         "AVAX",
+				Name:         "LIRAX",
 				Symbol:       "SYMB",
 				InitialState: holder,
 			},
