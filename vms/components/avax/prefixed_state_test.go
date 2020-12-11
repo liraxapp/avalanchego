@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/codec"
+	"github.com/liraxapp/avalanchego/database/memdb"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/utils/codec"
 )
 
 func TestPrefixedFunds(t *testing.T) {

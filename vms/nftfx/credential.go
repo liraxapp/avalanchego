@@ -1,7 +1,7 @@
 package nftfx
 
 import (
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/liraxapp/avalanchego/vms/secp256k1fx"
 )
 
 // Credential ...

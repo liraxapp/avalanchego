@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowstorm"
-	"github.com/ava-labs/avalanchego/snow/engine/avalanche/vertex"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/snow/consensus/snowstorm"
+	"github.com/liraxapp/avalanchego/snow/engine/avalanche/vertex"
+	"github.com/liraxapp/avalanchego/utils"
+	"github.com/liraxapp/avalanchego/utils/hashing"
+	"github.com/liraxapp/avalanchego/utils/wrappers"
 )
 
 const (

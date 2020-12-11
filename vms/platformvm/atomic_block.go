@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/vms/components/core"
+	"github.com/liraxapp/avalanchego/database/versiondb"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/snow/choices"
+	"github.com/liraxapp/avalanchego/vms/components/core"
 )
 
 var (

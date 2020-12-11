@@ -4,9 +4,9 @@
 package core
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/utils/hashing"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/snow/choices"
+	"github.com/liraxapp/avalanchego/utils/hashing"
 )
 
 // Metadata contains the data common to all blocks and transactions

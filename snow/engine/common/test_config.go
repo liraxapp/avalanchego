@@ -4,8 +4,8 @@
 package common
 
 import (
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/validators"
+	"github.com/liraxapp/avalanchego/snow"
+	"github.com/liraxapp/avalanchego/snow/validators"
 )
 
 // DefaultConfigTest returns a test configuration

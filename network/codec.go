@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/liraxapp/avalanchego/utils/wrappers"
 )
 
 var (

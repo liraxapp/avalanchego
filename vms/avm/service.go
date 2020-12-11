@@ -10,19 +10,19 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/json"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/nftfx"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/liraxapp/avalanchego/api"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/snow/choices"
+	"github.com/liraxapp/avalanchego/utils/constants"
+	"github.com/liraxapp/avalanchego/utils/crypto"
+	"github.com/liraxapp/avalanchego/utils/formatting"
+	"github.com/liraxapp/avalanchego/utils/json"
+	"github.com/liraxapp/avalanchego/vms/components/avax"
+	"github.com/liraxapp/avalanchego/vms/components/verify"
+	"github.com/liraxapp/avalanchego/vms/nftfx"
+	"github.com/liraxapp/avalanchego/vms/secp256k1fx"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/liraxapp/avalanchego/utils/math"
 )
 
 const (

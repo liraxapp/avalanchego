@@ -6,9 +6,9 @@ package block
 import (
 	"errors"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/snow/consensus/snowman"
+	"github.com/liraxapp/avalanchego/snow/engine/common"
 )
 
 var (

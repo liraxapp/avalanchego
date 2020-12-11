@@ -9,17 +9,17 @@ import (
 
 	stdmath "math"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/codec"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/utils/timer"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/avm"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/snow"
+	"github.com/liraxapp/avalanchego/utils/codec"
+	"github.com/liraxapp/avalanchego/utils/crypto"
+	"github.com/liraxapp/avalanchego/utils/logging"
+	"github.com/liraxapp/avalanchego/utils/math"
+	"github.com/liraxapp/avalanchego/utils/timer"
+	"github.com/liraxapp/avalanchego/utils/wrappers"
+	"github.com/liraxapp/avalanchego/vms/avm"
+	"github.com/liraxapp/avalanchego/vms/components/avax"
+	"github.com/liraxapp/avalanchego/vms/secp256k1fx"
 )
 
 const (

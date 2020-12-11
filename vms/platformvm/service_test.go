@@ -11,17 +11,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/api/keystore"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/vms/avm"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/liraxapp/avalanchego/api"
+	"github.com/liraxapp/avalanchego/api/keystore"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/utils/constants"
+	"github.com/liraxapp/avalanchego/utils/crypto"
+	"github.com/liraxapp/avalanchego/utils/formatting"
+	"github.com/liraxapp/avalanchego/vms/avm"
+	"github.com/liraxapp/avalanchego/vms/components/avax"
+	"github.com/liraxapp/avalanchego/vms/secp256k1fx"
 
-	cjson "github.com/ava-labs/avalanchego/utils/json"
+	cjson "github.com/liraxapp/avalanchego/utils/json"
 )
 
 var (

@@ -8,14 +8,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
-	"github.com/ava-labs/avalanchego/utils/codec"
-	"github.com/ava-labs/avalanchego/vms/components/core"
+	"github.com/liraxapp/avalanchego/database"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/snow"
+	"github.com/liraxapp/avalanchego/snow/consensus/snowman"
+	"github.com/liraxapp/avalanchego/snow/engine/common"
+	"github.com/liraxapp/avalanchego/snow/engine/snowman/block"
+	"github.com/liraxapp/avalanchego/utils/codec"
+	"github.com/liraxapp/avalanchego/vms/components/core"
 )
 
 const (

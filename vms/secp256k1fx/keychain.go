@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/utils/crypto"
+	"github.com/liraxapp/avalanchego/utils/formatting"
+	"github.com/liraxapp/avalanchego/vms/components/verify"
 )
 
 var (

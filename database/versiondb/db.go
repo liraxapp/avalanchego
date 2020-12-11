@@ -8,10 +8,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/database/nodb"
-	"github.com/ava-labs/avalanchego/utils"
+	"github.com/liraxapp/avalanchego/database"
+	"github.com/liraxapp/avalanchego/database/memdb"
+	"github.com/liraxapp/avalanchego/database/nodb"
+	"github.com/liraxapp/avalanchego/utils"
 )
 
 // Database implements the Database interface by living on top of another

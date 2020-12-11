@@ -13,8 +13,8 @@ import (
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"github.com/syndtr/goleveldb/leveldb/util"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/utils"
+	"github.com/liraxapp/avalanchego/database"
+	"github.com/liraxapp/avalanchego/utils"
 )
 
 const (

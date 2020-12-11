@@ -11,13 +11,13 @@ import (
 
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/gconn"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/gconn/gconnproto"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/greader"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/greader/greaderproto"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/gresponsewriter/gresponsewriterproto"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/gwriter"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/gwriter/gwriterproto"
+	"github.com/liraxapp/avalanchego/vms/rpcchainvm/ghttp/gconn"
+	"github.com/liraxapp/avalanchego/vms/rpcchainvm/ghttp/gconn/gconnproto"
+	"github.com/liraxapp/avalanchego/vms/rpcchainvm/ghttp/greader"
+	"github.com/liraxapp/avalanchego/vms/rpcchainvm/ghttp/greader/greaderproto"
+	"github.com/liraxapp/avalanchego/vms/rpcchainvm/ghttp/gresponsewriter/gresponsewriterproto"
+	"github.com/liraxapp/avalanchego/vms/rpcchainvm/ghttp/gwriter"
+	"github.com/liraxapp/avalanchego/vms/rpcchainvm/ghttp/gwriter/gwriterproto"
 )
 
 // Client is an implementation of a messenger channel that talks over RPC.

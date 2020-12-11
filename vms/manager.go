@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/liraxapp/avalanchego/api"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/snow"
+	"github.com/liraxapp/avalanchego/snow/engine/common"
+	"github.com/liraxapp/avalanchego/utils/logging"
 )
 
 // A VMFactory creates new instances of a VM

@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
+	"github.com/liraxapp/avalanchego/database"
+	"github.com/liraxapp/avalanchego/database/versiondb"
+	"github.com/liraxapp/avalanchego/vms/components/avax"
 )
 
 var (

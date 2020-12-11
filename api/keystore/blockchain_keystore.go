@@ -4,8 +4,8 @@
 package keystore
 
 import (
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/database"
+	"github.com/liraxapp/avalanchego/ids"
 )
 
 // BlockchainKeystore ...

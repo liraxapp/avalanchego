@@ -4,11 +4,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/timer"
+	"github.com/liraxapp/avalanchego/cache"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/utils"
+	"github.com/liraxapp/avalanchego/utils/hashing"
+	"github.com/liraxapp/avalanchego/utils/timer"
 )
 
 // ConnMeter keeps track of how many times a peer from a given address

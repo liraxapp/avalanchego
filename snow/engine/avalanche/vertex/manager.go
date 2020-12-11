@@ -4,9 +4,9 @@
 package vertex
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/avalanche"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowstorm"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/snow/consensus/avalanche"
+	"github.com/liraxapp/avalanchego/snow/consensus/snowstorm"
 )
 
 // Manager defines the persistent storage that is required by the consensus

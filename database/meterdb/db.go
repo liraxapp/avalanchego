@@ -6,8 +6,8 @@ package meterdb
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/utils/timer"
+	"github.com/liraxapp/avalanchego/database"
+	"github.com/liraxapp/avalanchego/utils/timer"
 )
 
 // Database tracks the amount of time each operation takes

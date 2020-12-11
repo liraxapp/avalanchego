@@ -6,11 +6,11 @@ package sender
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/networking/router"
-	"github.com/ava-labs/avalanchego/snow/networking/timeout"
-	"github.com/ava-labs/avalanchego/utils/constants"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/snow"
+	"github.com/liraxapp/avalanchego/snow/networking/router"
+	"github.com/liraxapp/avalanchego/snow/networking/timeout"
+	"github.com/liraxapp/avalanchego/utils/constants"
 )
 
 // Sender sends consensus messages to other validators

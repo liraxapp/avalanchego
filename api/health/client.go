@@ -6,7 +6,7 @@ package health
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/rpc"
+	"github.com/liraxapp/avalanchego/utils/rpc"
 )
 
 // Client for Avalanche Health API Endpoint

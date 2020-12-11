@@ -7,11 +7,11 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/codec"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/utils/codec"
+	"github.com/liraxapp/avalanchego/utils/formatting"
+	"github.com/liraxapp/avalanchego/utils/wrappers"
+	"github.com/liraxapp/avalanchego/vms/secp256k1fx"
 )
 
 func TestUTXOVerifyNil(t *testing.T) {

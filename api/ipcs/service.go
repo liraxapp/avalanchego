@@ -9,12 +9,12 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/chains"
-	"github.com/ava-labs/avalanchego/ipcs"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils/json"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/liraxapp/avalanchego/api"
+	"github.com/liraxapp/avalanchego/chains"
+	"github.com/liraxapp/avalanchego/ipcs"
+	"github.com/liraxapp/avalanchego/snow/engine/common"
+	"github.com/liraxapp/avalanchego/utils/json"
+	"github.com/liraxapp/avalanchego/utils/logging"
 )
 
 // IPCServer maintains the IPCs

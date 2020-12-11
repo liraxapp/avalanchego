@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/liraxapp/avalanchego/api"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/vms/components/avax"
+	"github.com/liraxapp/avalanchego/vms/secp256k1fx"
 
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	"github.com/liraxapp/avalanchego/utils/formatting"
+	safemath "github.com/liraxapp/avalanchego/utils/math"
 )
 
 // WalletService ...

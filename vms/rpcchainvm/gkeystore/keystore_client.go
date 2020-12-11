@@ -8,11 +8,11 @@ import (
 
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/rpcdb"
-	"github.com/ava-labs/avalanchego/database/rpcdb/rpcdbproto"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/gkeystore/gkeystoreproto"
+	"github.com/liraxapp/avalanchego/database"
+	"github.com/liraxapp/avalanchego/database/rpcdb"
+	"github.com/liraxapp/avalanchego/database/rpcdb/rpcdbproto"
+	"github.com/liraxapp/avalanchego/snow"
+	"github.com/liraxapp/avalanchego/vms/rpcchainvm/gkeystore/gkeystoreproto"
 )
 
 var (

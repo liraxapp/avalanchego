@@ -3,8 +3,8 @@ package vertex
 import (
 	"container/heap"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/avalanche"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/snow/consensus/avalanche"
 )
 
 // A vertexItem is a Vertex managed by the priority queue.

@@ -6,13 +6,13 @@ package timeout
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/networking/benchlist"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/timer"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/snow"
+	"github.com/liraxapp/avalanchego/snow/networking/benchlist"
+	"github.com/liraxapp/avalanchego/utils/constants"
+	"github.com/liraxapp/avalanchego/utils/hashing"
+	"github.com/liraxapp/avalanchego/utils/timer"
+	"github.com/liraxapp/avalanchego/utils/wrappers"
 )
 
 // Manager registers and fires timeouts for the snow API.

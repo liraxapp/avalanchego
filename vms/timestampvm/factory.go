@@ -4,8 +4,8 @@
 package timestampvm
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/snow"
 )
 
 // ID is a unique identifier for this VM

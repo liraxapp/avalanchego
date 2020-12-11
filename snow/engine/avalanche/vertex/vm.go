@@ -4,9 +4,9 @@
 package vertex
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowstorm"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/snow/consensus/snowstorm"
+	"github.com/liraxapp/avalanchego/snow/engine/common"
 )
 
 // DAGVM defines the minimum functionality that an avalanche VM must

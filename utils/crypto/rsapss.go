@@ -9,8 +9,8 @@ import (
 	"crypto/rsa"
 	"crypto/x509"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/hashing"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/utils/hashing"
 )
 
 const rsaPSSSize = 3072

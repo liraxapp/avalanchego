@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/vms/avm"
-	"github.com/ava-labs/avalanchego/vms/evm"
-	"github.com/ava-labs/avalanchego/vms/platformvm"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/utils/constants"
+	"github.com/liraxapp/avalanchego/vms/avm"
+	"github.com/liraxapp/avalanchego/vms/evm"
+	"github.com/liraxapp/avalanchego/vms/platformvm"
 )
 
 func TestAliases(t *testing.T) {

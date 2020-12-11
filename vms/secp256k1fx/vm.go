@@ -4,9 +4,9 @@
 package secp256k1fx
 
 import (
-	"github.com/ava-labs/avalanchego/utils/codec"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/timer"
+	"github.com/liraxapp/avalanchego/utils/codec"
+	"github.com/liraxapp/avalanchego/utils/logging"
+	"github.com/liraxapp/avalanchego/utils/timer"
 )
 
 // VM that this Fx must be run by

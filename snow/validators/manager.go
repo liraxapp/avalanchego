@@ -6,7 +6,7 @@ package validators
 import (
 	"sync"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/ids"
 )
 
 // Manager holds the validator set of each subnet

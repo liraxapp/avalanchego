@@ -7,13 +7,13 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowstorm"
-	"github.com/ava-labs/avalanchego/snow/engine/avalanche/vertex"
-	"github.com/ava-labs/avalanchego/utils/hashing"
+	"github.com/liraxapp/avalanchego/database/memdb"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/snow"
+	"github.com/liraxapp/avalanchego/snow/choices"
+	"github.com/liraxapp/avalanchego/snow/consensus/snowstorm"
+	"github.com/liraxapp/avalanchego/snow/engine/avalanche/vertex"
+	"github.com/liraxapp/avalanchego/utils/hashing"
 )
 
 func newSerializer(t *testing.T, parseTx func([]byte) (snowstorm.Tx, error)) *Serializer {

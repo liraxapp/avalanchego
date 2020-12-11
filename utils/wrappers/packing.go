@@ -8,8 +8,8 @@ import (
 	"errors"
 	"math"
 
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/hashing"
+	"github.com/liraxapp/avalanchego/utils"
+	"github.com/liraxapp/avalanchego/utils/hashing"
 )
 
 const (

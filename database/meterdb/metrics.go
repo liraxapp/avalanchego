@@ -8,8 +8,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/utils/timer"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/liraxapp/avalanchego/utils/timer"
+	"github.com/liraxapp/avalanchego/utils/wrappers"
 )
 
 func newMetric(namespace, name string) prometheus.Histogram {

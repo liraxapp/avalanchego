@@ -6,8 +6,8 @@ package platformvm
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/utils/crypto"
 )
 
 func TestTxHeapStart(t *testing.T) {

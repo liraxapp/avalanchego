@@ -6,8 +6,8 @@ package info
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/network"
-	"github.com/ava-labs/avalanchego/utils/rpc"
+	"github.com/liraxapp/avalanchego/network"
+	"github.com/liraxapp/avalanchego/utils/rpc"
 )
 
 // Client is an Info API Client

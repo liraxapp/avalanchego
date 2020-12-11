@@ -6,7 +6,7 @@ package genesis
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/liraxapp/avalanchego/utils/units"
 )
 
 var (

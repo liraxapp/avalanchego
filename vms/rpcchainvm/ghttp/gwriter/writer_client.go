@@ -7,7 +7,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/gwriter/gwriterproto"
+	"github.com/liraxapp/avalanchego/vms/rpcchainvm/ghttp/gwriter/gwriterproto"
 )
 
 // Client is an implementation of a messenger channel that talks over RPC.

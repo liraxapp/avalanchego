@@ -8,7 +8,7 @@ import (
 	"container/heap"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/ids"
 )
 
 // TimedTx ...

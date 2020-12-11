@@ -6,8 +6,8 @@ package avm
 import (
 	"reflect"
 
-	"github.com/ava-labs/avalanchego/utils/codec"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/liraxapp/avalanchego/utils/codec"
+	"github.com/liraxapp/avalanchego/utils/wrappers"
 )
 
 var (

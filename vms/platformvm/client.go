@@ -6,11 +6,11 @@ package platformvm
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	cjson "github.com/ava-labs/avalanchego/utils/json"
-	"github.com/ava-labs/avalanchego/utils/rpc"
+	"github.com/liraxapp/avalanchego/api"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/utils/formatting"
+	cjson "github.com/liraxapp/avalanchego/utils/json"
+	"github.com/liraxapp/avalanchego/utils/rpc"
 )
 
 // Client ...

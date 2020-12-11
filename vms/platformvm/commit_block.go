@@ -6,8 +6,8 @@ package platformvm
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/components/core"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/vms/components/core"
 )
 
 // Commit being accepted results in the proposal of its parent (which must be a proposal block)

@@ -6,7 +6,7 @@ package admin
 import (
 	"net/http"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/ids"
 )
 
 // GetChainAliasesArgs are the arguments for Admin.GetChainAliases API call

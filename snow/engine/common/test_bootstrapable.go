@@ -7,7 +7,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/ids"
 )
 
 // BootstrapableTest is a test engine that supports bootstrapping

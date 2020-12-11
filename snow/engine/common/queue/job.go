@@ -4,7 +4,7 @@
 package queue
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/ids"
 )
 
 // Job ...

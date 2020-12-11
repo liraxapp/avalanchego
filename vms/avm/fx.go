@@ -4,8 +4,8 @@
 package avm
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/vms/components/verify"
 )
 
 type parsedFx struct {

@@ -4,7 +4,7 @@
 package cache
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/ids"
 )
 
 // Cacher acts as a best effort key value store

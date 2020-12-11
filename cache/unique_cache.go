@@ -7,7 +7,7 @@ import (
 	"container/list"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/ids"
 )
 
 // EvictableLRU is an LRU cache that notifies the objects when they are evicted.

@@ -6,7 +6,7 @@ package network
 import (
 	"net"
 
-	"github.com/ava-labs/avalanchego/utils"
+	"github.com/liraxapp/avalanchego/utils"
 )
 
 // Dialer attempts to create a connection with the provided IP/port pair

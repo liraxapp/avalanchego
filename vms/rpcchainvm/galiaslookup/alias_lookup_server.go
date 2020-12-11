@@ -6,9 +6,9 @@ package galiaslookup
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/galiaslookup/galiaslookupproto"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/snow"
+	"github.com/liraxapp/avalanchego/vms/rpcchainvm/galiaslookup/galiaslookupproto"
 )
 
 // Server is a messenger that is managed over RPC.

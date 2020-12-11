@@ -11,7 +11,7 @@ import (
 
 	jwt "github.com/dgrijalva/jwt-go"
 
-	"github.com/ava-labs/avalanchego/utils/password"
+	"github.com/liraxapp/avalanchego/utils/password"
 )
 
 var (

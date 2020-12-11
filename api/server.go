@@ -18,10 +18,10 @@ import (
 
 	"github.com/rs/cors"
 
-	"github.com/ava-labs/avalanchego/api/auth"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/liraxapp/avalanchego/api/auth"
+	"github.com/liraxapp/avalanchego/snow"
+	"github.com/liraxapp/avalanchego/snow/engine/common"
+	"github.com/liraxapp/avalanchego/utils/logging"
 )
 
 const (

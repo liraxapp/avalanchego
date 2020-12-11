@@ -7,7 +7,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ava-labs/avalanchego/vms/components/core"
+	"github.com/liraxapp/avalanchego/vms/components/core"
 )
 
 var (

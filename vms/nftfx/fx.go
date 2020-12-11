@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/liraxapp/avalanchego/utils/wrappers"
+	"github.com/liraxapp/avalanchego/vms/components/verify"
+	"github.com/liraxapp/avalanchego/vms/secp256k1fx"
 )
 
 var (

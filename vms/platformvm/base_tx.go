@@ -3,9 +3,9 @@ package platformvm
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils/codec"
-	"github.com/ava-labs/avalanchego/vms/components/avax"
+	"github.com/liraxapp/avalanchego/snow"
+	"github.com/liraxapp/avalanchego/utils/codec"
+	"github.com/liraxapp/avalanchego/vms/components/avax"
 )
 
 // BaseTx contains fields common to many transaction types. It should be

@@ -6,7 +6,7 @@ package genesis
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/liraxapp/avalanchego/utils/units"
 )
 
 // PrivateKey-vmRQiZeXEXYMyJhEiqdC2z5JhuDbxL8ix9UVvjgMu2Er1NepE => X-local1g65uqn6t77p656w64023nh8nd9updzmxyymev2

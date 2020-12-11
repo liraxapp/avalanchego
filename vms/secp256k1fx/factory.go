@@ -4,8 +4,8 @@
 package secp256k1fx
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
+	"github.com/liraxapp/avalanchego/ids"
+	"github.com/liraxapp/avalanchego/snow"
 )
 
 // ID that this Fx uses when labeled

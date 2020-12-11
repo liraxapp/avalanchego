@@ -3,7 +3,7 @@
 
 package evm
 
-import "github.com/ava-labs/avalanchego/ids"
+import "github.com/liraxapp/avalanchego/ids"
 
 var (
 	// ID that this VM uses when labeled
