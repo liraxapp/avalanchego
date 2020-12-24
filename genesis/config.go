@@ -152,7 +152,8 @@ var (
 	// FujiConfig is the config that should be used to generate the fuji
 	// genesis.
 	FujiConfig Config
-	
+
+	// LiraxConfig is the config that should be used to generate the lirax mainnet
 	LiraxConfig Config
 
 	// LocalConfig is the config that should be used to generate a local
@@ -180,11 +181,11 @@ func init() {
 	mainnetConfig, err := unparsedMainnetConfig.Parse()
 	errs.Add(err)
 	MainnetConfig = mainnetConfig
-	
+
 	liraxConfig, err := unparsedLiraxConfig.Parse()
 	errs.Add(err)
 	LiraxConfig = liraxConfig
-	
+
 	fujiConfig, err := unparsedFujiConfig.Parse()
 	errs.Add(err)
 	FujiConfig = fujiConfig

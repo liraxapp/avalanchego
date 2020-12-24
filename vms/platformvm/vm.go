@@ -55,7 +55,7 @@ const (
 
 	droppedTxCacheSize = 50
 
-	maxUTXOsToFetch = 1024
+	maxUTXOsToFetch = 2048
 
 	// TODO: Turn these constants into governable parameters
 
@@ -67,7 +67,7 @@ const (
 	MinConsumptionRate = 2 // 10%
 
 	// SupplyCap is the maximum amount of AVAX that should ever exist
-	SupplyCap = 9999 * units.MegaAvax
+	SupplyCap = 1810 * units.MegaAvax
 
 	// Maximum future start time for staking/delegating
 	maxFutureStartTime = 24 * 7 * 2 * time.Hour

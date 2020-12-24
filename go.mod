@@ -1,6 +1,6 @@
 module github.com/liraxapp/avalanchego
 
-go 1.14
+go 1.15
 
 require (
 	github.com/AppsFlyer/go-sundheit v0.2.0
